@@ -1,6 +1,3 @@
-import React from 'react';
-import './src/App.css';
-
 const projects = [
     {
         title: 'ClockWise',
@@ -45,7 +42,7 @@ const projects = [
 
 ];
 
-function Portfolio() {
+export default function Portfolio() {
     // renders the portfolio page
     return (
         <section className="portfolio">
@@ -65,6 +62,4 @@ function Portfolio() {
         </section>
     );
 }
-
-export default Portfolio;
 

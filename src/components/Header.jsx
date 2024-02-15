@@ -1,8 +1,5 @@
-import React from 'react';
-import './src/App.css';
-
 // 2 props for header section of the webpage
-function Header({ currentSection, handleNavigationClick }) {
+export default function Header({ currentSection, handleNavigationClick }) {
     // structure of header
   return (
     <header className="header">
@@ -21,5 +18,3 @@ function Header({ currentSection, handleNavigationClick }) {
     </header>
   );
 }
-
-export default Header;

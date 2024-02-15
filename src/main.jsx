@@ -1,30 +1,33 @@
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume'
+import Resume from './pages/Resume';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement: <Error />,
     children: [
       {
         index: true,
         element: <AboutMe />,
       },
       {
-        path: '/Contact',
+        path: 'contact',
         element: <Contact />,
       },
       {
-        path: '/Portfolio',
+        path: 'portfolio',
         element: <Portfolio />,
       },
       {
-        path: '/Resume',
+        path: 'resume',
         element: <Resume />,
       },
     ],
@@ -34,3 +37,5 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
 );
+
+

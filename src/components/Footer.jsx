@@ -1,7 +1,4 @@
-import React from 'react';
-import '../App.css';
-
-function Footer() {
+export default function Footer() {
   return (
     <footer className="footer">
       <ul>
@@ -12,5 +9,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;

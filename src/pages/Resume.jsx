@@ -1,7 +1,4 @@
-import React from 'react';
-import './src/App.css';
-
-function Resume() {
+export default function Resume() {
   return (
     <section className="resume">
       <h2>Resume</h2>
@@ -15,5 +12,3 @@ function Resume() {
     </section>
   );
 }
-
-export default Resume;

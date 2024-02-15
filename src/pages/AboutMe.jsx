@@ -1,7 +1,4 @@
-import React from 'react';
-import '../App.css';
-
-function AboutMe() {
+export default function AboutMe() {
 // structure for About Me section
   return (
     <section className="about-me">
@@ -14,4 +11,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+
