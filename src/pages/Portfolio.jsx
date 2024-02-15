@@ -1,45 +1,45 @@
 import React from 'react';
-import './App.css';
+import './src/App.css';
 
 const projects = [
     {
         title: 'ClockWise',
-        imageUrl: 'src\assets\images\clockwise.png',
+        imageUrl: '../assets/images/clockwise.png',
         link: 'https://nameless-fjord-16797-0078e08b982c.herokuapp.com/login',
     },
     {
         title: 'Note Taker',
-        imageUrl: 'src\assets\images\note-taker.png',
+        imageUrl: '../assets/images/note-taker.png',
         link: 'https://sleepy-anchorage-41730-09a2e414e230.herokuapp.com/',
     },
     {
         title: 'RecipeNutri Group Project',
-        imageUrl: 'src\assets\images\recipenutri.png',
+        imageUrl: '../assets/images/recipenutri.png',
         link: 'https://natemcmahon.github.io/Recipe-Nutri/',
     },
     {
         title: 'Weather Dashboard',
-        imageUrl: 'src\assets\images\weather-dashboard.png',
+        imageUrl: '../assets/images/weather-dashboard.png',
         link: 'https://annat7459.github.io/6-weather-dashboard/',
     },
     {
         title: 'Work Day Scheduler',
-        imageUrl: 'src\assets\images\work-day-scheduler.png',
+        imageUrl: '../assets/images/work-day-scheduler.png',
         link: 'https://annat7459.github.io/5-work-day-scheduler/',
     },
     {
         title: 'Coding Quiz',
-        imageUrl: 'src\assets\images\coding-quiz.png',
+        imageUrl: '../assets/images/coding-quiz.png',
         link: 'https://annat7459.github.io/4-code-quiz/',
     },
     {
         title: 'Password Generator',
-        imageUrl: 'src\assets\images\password-generator.png',
+        imageUrl: '../password-generator.png',
         link: 'https://annat7459.github.io/3-password-generator/',
     },
     {
         title: 'Code Refactor',
-        imageUrl: 'src\assets\images\code-refactor.png',
+        imageUrl: '../assets/images/clockwise.png',
         link: 'https://annat7459.github.io/code-refactor/',
     },
 

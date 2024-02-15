@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './src/App.css';
 
 // 2 props for header section of the webpage
 function Header({ currentSection, handleNavigationClick }) {
