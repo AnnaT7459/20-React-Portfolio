@@ -31,5 +31,5 @@ function App() {
     </div>
   );
 }
-// can be used in other parts of the application-
+// can be used in other parts of the application
 export default App;
