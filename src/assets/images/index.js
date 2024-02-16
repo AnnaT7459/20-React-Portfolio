@@ -1,0 +1,8 @@
+export {default as clockwise} from './clockwise.png'
+export {default as codeRefactor} from './code-refactor.png'
+export {default as codingQuiz} from './coding-quiz.png'
+export {default as noteTaker} from './note-taker.png'
+export {default as passGen} from './password-generator.png'
+export {default as recipeNutri} from './recipenutri.png'
+export {default as weatherDash} from './weather-dashboard.png'
+export {default as workSched} from './work-day-scheduler.png'

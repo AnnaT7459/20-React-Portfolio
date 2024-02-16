@@ -1,3 +1,5 @@
+import * as images from '../assets/images/index'
+
 const projects = [
     {
         title: 'ClockWise',
@@ -53,9 +55,9 @@ export default function Portfolio() {
                     // links the project to the URL. key prop is set to index for an id of each project, also allows for styling to be done with the class name
                     <a key={index} href={project.link} className="project-link">
                         {/* the background image will be the screenshot and the title should be nested on the screenshot */}
-                        <div className="project" style={{ backgroundImage: `url(${project.imageUrl})` }}>
-                            <div className="project-title">{project.title}</div>
-                        </div>
+                        <img className="project" src = {images [index]}>
+                        </img>
+                        <div className="project-title">{project.title}</div>
                     </a>
                 ))}
             </div>
