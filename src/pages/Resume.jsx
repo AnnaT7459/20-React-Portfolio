@@ -32,7 +32,7 @@ export default function Resume() {
         </div>
       </div>
       <div className="resume-section">
-          <h3>,y skills and proficiencies include:</h3>
+          <h3>My skills and proficiencies include:</h3>
           <ul>
             {/* Maps through the proficiencies array to display each proficiency */}
             {proficiencies.map((proficiency, index) => (
