@@ -1,19 +1,20 @@
 /* Global styles */
-
-
 #root {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   margin: 0;
   padding: 0;
-  background-color: #f4f3ee;
+  /* Background color */
+  background-color: #cfcfc8; 
 }
 
 /* Header */
 .header {
-  background-color: #463f3a;
-  color: #f4f3ee;
+  /* Header background color */
+  background-color: #563d21; 
+  /* Header text color */
+  color: #cfcfc8; 
   padding: 20px;
 }
 
@@ -30,7 +31,8 @@
 }
 
 .header nav ul li.active {
-  color: #e0afa0;
+  /* Active link color */
+  color: #b3896d; 
 }
 
 /* Sections */
@@ -60,26 +62,31 @@ section {
 .contact form textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #bcb8b1;
+  /* Input border color */
+  border: 1px solid #637b97; 
   border-radius: 5px;
 }
 
 .contact form input[type="submit"] {
-  background-color: #463f3a;
-  color: #f4f3ee;
+  
+  /* Submit button background color */
+  background-color: #af6527; 
+   /* Submit button text color */
+  color: #cfcfc8;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
+ /* Submit button background color on hover */
 .contact form input[type="submit"]:hover {
-  background-color: #8a817c;
+  background-color: #b3896d;
 }
 
 /* Footer */
 .footer {
-  background-color: #463f3a;
+  background-color: #563d21;
   color: #f4f3ee;
   padding: 20px;
   text-align: center;
@@ -102,8 +109,9 @@ section {
 }
 
 .footer ul li a:hover {
-  color: #e0afa0;
+  color: #b3896d;
 }
+
 
 
 
