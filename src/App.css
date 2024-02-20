@@ -6,15 +6,15 @@
   margin: 0;
   padding: 0;
   /* Background color */
-  background-color: #cfcfc8; 
+  background-color: #cfcfc8;
 }
 
 /* Header */
 .header {
   /* Header background color */
-  background-color: #563d21; 
+  background-color: #563d21;
   /* Header text color */
-  color: #cfcfc8; 
+  color: #cfcfc8;
   padding: 20px;
 }
 
@@ -32,7 +32,7 @@
 
 .header nav ul li.active {
   /* Active link color */
-  color: #b3896d; 
+  color: #b3896d;
 }
 
 /* Sections */
@@ -45,6 +45,37 @@ section {
   width: 150px;
   border-radius: 50%;
   margin-right: 20px;
+}
+
+/* Portfolio */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects .project {
+  /* columns */
+  width: calc(50% - 10px); 
+  margin-bottom: 20px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  /* Styles for small to medium screens */
+  .projects .project {
+    width: calc(50% - 20px); 
+    height: 200px; 
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Styles for medium to large screens */
+  .projects .project {
+    /* 2 columns for large screens */
+    width: calc(50% - 30px); 
+    height: 250px; 
+  }
 }
 
 /* Contact Form */
@@ -63,15 +94,14 @@ section {
   width: 100%;
   padding: 10px;
   /* Input border color */
-  border: 1px solid #637b97; 
+  border: 1px solid #637b97;
   border-radius: 5px;
 }
 
 .contact form input[type="submit"] {
-  
   /* Submit button background color */
-  background-color: #af6527; 
-   /* Submit button text color */
+  background-color: #af6527;
+  /* Submit button text color */
   color: #cfcfc8;
   padding: 10px 20px;
   border: none;
@@ -79,7 +109,7 @@ section {
   cursor: pointer;
 }
 
- /* Submit button background color on hover */
+/* Submit button background color on hover */
 .contact form input[type="submit"]:hover {
   background-color: #b3896d;
 }
@@ -111,6 +141,8 @@ section {
 .footer ul li a:hover {
   color: #b3896d;
 }
+
+
 
 
 
